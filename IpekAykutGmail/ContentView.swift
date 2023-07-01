@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")            
+            Image(systemName: "globe")
+            Text("On fix branch")
         }
         .padding()
     }
