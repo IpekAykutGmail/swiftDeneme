@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
             Text("On fix branch")
+            Text("Fix branchinde sonradan yazdığım yazı")
+                .bold()
+                .font(.system(size: 14))
         }
         .padding()
     }
